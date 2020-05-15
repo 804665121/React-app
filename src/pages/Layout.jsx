@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import { TabBar } from 'antd-mobile';
+import {Category,CookBook,MapItem} from './index'
+import {TabBar} from 'antd-mobile'
 
 export class Layout extends React.Component {
     constructor(props) {
@@ -10,25 +11,19 @@ export class Layout extends React.Component {
             fullScreen: true,
         };
     }
-    renderContent(pageText) {
-        return (
-            <div></div>
-        )
-    }
     render() {
         return (
-            
-            <div style={ {position: 'fixed', width:'100%',bottom:0} }>
+
+            <div style={{ position: 'fixed', width: '100%',height:'100%', bottom: 0 }}>
                 <TabBar
                     unselectedTintColor="#949494"
                     tintColor="#33A3F4"
                     barTintColor="white"
                     hidden={this.state.hidden}
                 >
-                    
                     <TabBar.Item
                         title="美食大全"
-                        key="food "
+                        key="food"
                         icon={<div style={{
                             width: '22px',
                             height: '22px',
@@ -51,7 +46,7 @@ export class Layout extends React.Component {
                         }}
                         data-seed="logId"
                     >
-                        {this.renderContent('Life')}
+                        <CookBook></CookBook>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
@@ -79,8 +74,9 @@ export class Layout extends React.Component {
                             });
                         }}
                         data-seed="logId1"
+
                     >
-                        {this.renderContent('Koubei')}
+                        <Category></Category>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={
@@ -108,6 +104,7 @@ export class Layout extends React.Component {
                             });
                         }}
                     >
+                        <MapItem></MapItem>
                     </TabBar.Item>
                     <TabBar.Item
                         icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
@@ -127,4 +124,4 @@ export class Layout extends React.Component {
         );
     }
 }
-export default Layout;
+export default Layout

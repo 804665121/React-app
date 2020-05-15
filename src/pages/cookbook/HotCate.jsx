@@ -3,11 +3,13 @@ import { Grid } from 'antd-mobile'
 
 import { HotCateWrap } from './styledCookbook'
 
+import { hotcate} from '../../mock/mock'
+
 export class HotCate extends Component {
     render() {
-        const data = Array.from(new Array(9)).map((_val, i) => ({
-            icon: 'https://gw.alipayobjects.com/zos/rmsportal/WXoqXTHrSnRcUwEaQgXJ.png',
-            text: `菜品${i}`,
+        const data = Array.from(hotcate.cate).map((val, i) => ({
+            icon: val.icon,
+            text: val.text,
         }));
         return (
             <HotCateWrap>

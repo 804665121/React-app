@@ -1,0 +1,69 @@
+{
+    "carousel": [
+        {
+            "img": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1808825598,1583775703&fm=26&gp=0.jpg",
+            "id": 1
+        },
+        {
+            "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589519975779&di=714586c41296dd304a1b02d9a523267d&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F0139e95ab31f99a80120be140c9320.JPG%401280w_1l_2o_100sh.jpg",
+            "id": 2
+        },
+        {
+            "img": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1808825598,1583775703&fm=26&gp=0.jpg",
+            "id": 3
+        }
+        
+    ],
+    "cate": [
+        {
+            "icon": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589509891&di=3b6549268f82319b70fd2fcec002be1d&src=http://pic.qjimage.com/east017/high/east-ep-a31-6552726.jpg",
+            "text": "粤菜",
+            "id": 1
+        },
+        {
+            "icon": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1017686398,1791049247&fm=26&gp=0.jpg",
+            "text": "粤菜",
+            "id": 2
+        },
+        {
+            "icon": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589509891&di=3b6549268f82319b70fd2fcec002be1d&src=http://pic.qjimage.com/east017/high/east-ep-a31-6552726.jpg",
+            "text": "粤菜",
+            "id": 3
+        },
+        {
+            "icon": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1017686398,1791049247&fm=26&gp=0.jpg",
+            "text": "粤菜",
+            "id": 4
+        },
+        {
+            "icon": "https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589509891&di=3b6549268f82319b70fd2fcec002be1d&src=http://pic.qjimage.com/east017/high/east-ep-a31-6552726.jpg",
+            "text": "粤菜",
+            "id": 5
+        },
+        {
+            "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589519975780&di=e05bbc9ef48d12f3393c4acb108e7279&imgtype=0&src=http%3A%2F%2Fs9.rr.itc.cn%2Fr%2FwapChange%2F201612_25_7%2Fa5cq9y0305424352855.jpeg",
+            "text": "粤菜",
+            "id": 6
+        },
+        {
+            "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589519975780&di=e05bbc9ef48d12f3393c4acb108e7279&imgtype=0&src=http%3A%2F%2Fs9.rr.itc.cn%2Fr%2FwapChange%2F201612_25_7%2Fa5cq9y0305424352855.jpeg",
+            "text": "粤菜",
+            "id": 7
+        },
+        {
+            "icon": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589519975780&di=e05bbc9ef48d12f3393c4acb108e7279&imgtype=0&src=http%3A%2F%2Fs9.rr.itc.cn%2Fr%2FwapChange%2F201612_25_7%2Fa5cq9y0305424352855.jpeg",
+            "text": "粤菜",
+            "id": 8
+        },
+        {
+            "icon": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1017686398,1791049247&fm=26&gp=0.jpg",
+            "text": "粤菜",
+            "id": 9
+        },
+        {
+            "icon": "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1017686398,1791049247&fm=26&gp=0.jpg",
+            "text": "粤菜",
+            "id": 10
+        }
+    ]
+}
