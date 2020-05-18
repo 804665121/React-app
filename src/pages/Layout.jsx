@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Category,CookBook,MapItem} from './index'
+import {Category,CookBook,MapItem,Profile} from './index'
 import {TabBar} from 'antd-mobile'
 
 export class Layout extends React.Component {
@@ -118,6 +118,7 @@ export class Layout extends React.Component {
                             });
                         }}
                     >
+                        <Profile></Profile>
                     </TabBar.Item>
                 </TabBar>
             </div>

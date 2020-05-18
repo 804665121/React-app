@@ -46,7 +46,6 @@ ul>li:last-child{
 
 
 export const CateWrap=styled.div`
-
 height:100%;
 overflow:hidden;
 `

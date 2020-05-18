@@ -30,7 +30,6 @@ export class Classify extends Component {
                                 )
                             })
                         }
-
                     </ul>
                 </div>
                 <div>
