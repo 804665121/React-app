@@ -1,16 +1,14 @@
 const defaultState = {
-    list: []
+     show:true
 }
 
 export default (state = defaultState, action) => {
     switch (action.type) {
-        case "loadDate":
+        case "changeState":
             return {
                 list: action.data
             }
-            break;
         default:
             return state
-            break;
     }
 }

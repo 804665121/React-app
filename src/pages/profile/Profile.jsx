@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { Switch } from 'antd-mobile';
+
+// 在组件里面使用
 // 导入store
 import { store } from '../../store'
 
@@ -14,15 +16,12 @@ export default class Profile extends Component {
         }
     }
     changeAction = () => {
-        //    先调用sendAction()拿到action对象
+        //先调用sendAction()拿到action对象
         const action = sendAction();
         console.log(store)
         //发送一个action  利用store
         store.dispatch(action)
-
     };
-
-
     componentDidMount() {
         store.subscribe(() => {
             console.log(store.getState())
@@ -44,7 +43,6 @@ export default class Profile extends Component {
                 />
                 <button onClick={this.changeAction}>点击看看</button>
                 <div>{store.getState().value}</div>
-
             </div>
         )
     }
